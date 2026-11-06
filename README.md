@@ -1,4 +1,4 @@
-# eNSP MCP 一键部署包 3.0，下载Releases中的压缩包，一键部署即可使用（要在agent的连接器/mcp页信任此工具），建议在公共电脑里使用，未针对垃圾文件进行优化
+# eNSP MCP 一键部署包 3.0，针对大学生网络作业专用，不涉及商业下载Releases中的压缩包，一键部署即可使用（要在agent的连接器/mcp页信任此工具），建议在公共电脑里使用，未针对垃圾文件进行优化。下面有提示词范例**要同时向agent提交范例拓扑图跟老师的任务要求，学号等，要提醒每个设备配置完要save**
 
 在 Windows 上一条命令部署 **ensp-mcp 1.3.0**，并自动注册到 **Claude Code** 和 **WorkBuddy**。
 
@@ -53,6 +53,7 @@
 ---
 
 ## 三、使用流程
+提示词范例：（word/txt作业要求）（拓扑图范例）使用ensp mcp完成，19个工具选最便捷的，姓名XXX，学号X，按要求完成任务，每个设备配置完要save。
 
 ```
 environment_check → list_models → topo_create → topo_add_devices
