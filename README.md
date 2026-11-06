@@ -1,4 +1,4 @@
-# eNSP MCP 一键部署包 3.0
+# eNSP MCP 一键部署包 3.0，下载Releases中的压缩包，一键部署即可使用（要在agent的连接器/mcp页信任此工具），建议在公共电脑里使用，未针对垃圾文件进行优化
 
 在 Windows 上一条命令部署 **ensp-mcp 1.3.0**，并自动注册到 **Claude Code** 和 **WorkBuddy**。
 
