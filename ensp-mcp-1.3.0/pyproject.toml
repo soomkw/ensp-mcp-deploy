@@ -1,0 +1,40 @@
+[project]
+name = "ensp-mcp"
+version = "1.3.0"
+description = "eNSP 一站式 MCP —— 拓扑搭建 + 设备配置"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Heaxu" }]
+keywords = ["ensp", "huawei", "mcp", "network-automation", "topology"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Networking",
+]
+dependencies = [
+    "mcp>=1.26.0,<2",
+    "telnetlib3>=4.0.1,<5",
+    "pillow>=9.0.0",
+]
+
+[project.scripts]
+ensp-mcp = "ensp_mcp.server:main"
+ensp-mcp-doctor = "ensp_mcp.doctor:main"
+
+[project.urls]
+Homepage = "https://github.com/Heaxu/ensp-mcp"
+Repository = "https://github.com/Heaxu/ensp-mcp"
+Issues = "https://github.com/Heaxu/ensp-mcp/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ensp_mcp"]

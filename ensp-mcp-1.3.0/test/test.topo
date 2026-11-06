@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.200T">
+    <devices>
+        <dev id="3ED99F41-31D9-49f8-8E3E-5A2CE692CACA" name="AR1" poe="0" model="AR1220" settings="" system_mac="00-E0-FC-78-0A-10" com_port="2000" bootmode="1" cx="307.000000" cy="124.000000" edit_left="334" edit_top="178">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Ethernet" interfacename="Ethernet" count="8" />
+            </slot>
+        </dev>
+        <dev id="C9FAAFF0-C034-4d14-A644-E75E6829A47F" name="AR2" poe="0" model="AR201" settings="" system_mac="00-E0-FC-5B-59-DA" com_port="2001" bootmode="1" cx="304.000000" cy="206.000000" edit_left="331" edit_top="260">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="8" />
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="2C58B411-0B9B-4b9b-8F28-D73755DC0BEE" name="AR3" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-D3-3F-5C" com_port="2002" bootmode="1" cx="303.000000" cy="285.000000" edit_left="330" edit_top="339">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="101F6383-84C9-4ce9-AA03-7F5582E038CD" name="AR4" poe="0" model="AR2240" settings="" system_mac="00-E0-FC-BB-59-71" com_port="2003" bootmode="1" cx="310.000000" cy="358.000000" edit_left="337" edit_top="412">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="60D17AA5-4986-478f-8B4F-8DBC9B891E3E" name="AR5" poe="0" model="AR3260" settings="" system_mac="00-E0-FC-FE-34-F1" com_port="2004" bootmode="1" cx="314.000000" cy="428.000000" edit_left="341" edit_top="482">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="DE35BC62-3435-4f5a-B00C-69697F0C14CC" name="R1" poe="0" model="Router" settings="" system_mac="54-89-98-DE-25-76" com_port="2005" bootmode="1" cx="312.000000" cy="504.000000" edit_left="339" edit_top="558">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="4" />
+                <interface sztype="Serial" interfacename="Serial" count="4" />
+            </slot>
+        </dev>
+        <dev id="77714D2F-35D3-460c-B56C-5E0A9FD7C410" name="NE1" poe="0" model="NE40E" settings="" system_mac="70-7B-E8-60-73-4A" com_port="2006" bootmode="1" cx="313.500000" cy="575.000000" edit_left="336" edit_top="639">
+            <slot id="1">
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="0" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="1" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="2" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="3" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="4" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="5" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="6" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="7" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="8" />
+                <interface category="Ethernet" type="Ethernet" slotIndex="1" cardIndex="0" interfaceIndex="9" />
+            </slot>
+        </dev>
+        <dev id="66E7E0A5-72BA-4c49-9216-A9F6A0F66E33" name="LSW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-6C-3A-82" com_port="2007" bootmode="1" cx="416.000000" cy="117.000000" edit_left="443" edit_top="171">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="2D85DAC4-EAEE-4747-AB79-27D396CE8B6C" name="LSW2" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-8B-5E-1E" com_port="2008" bootmode="1" cx="415.000000" cy="199.000000" edit_left="442" edit_top="253">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="9783F1CC-A9D3-4ed2-B683-FFB8289F84B9" name="CE1" poe="0" model="CE6800" settings="" system_mac="70-7B-E8-A3-43-AA" com_port="2009" bootmode="1" cx="420.000000" cy="287.000000" edit_left="447" edit_top="341">
+            <slot id="1">
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="0" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="1" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="2" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="3" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="4" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="5" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="6" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="7" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="8" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="9" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="10" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="11" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="12" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="13" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="14" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="15" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="16" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="17" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="18" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="19" />
+            </slot>
+        </dev>
+        <dev id="EDEB4BAF-97CF-45fc-82F1-641EE71EEBEE" name="CE2" poe="0" model="CE12800" settings="" system_mac="70-7B-E8-59-31-02" com_port="2010" bootmode="1" cx="426.500000" cy="363.500000" edit_left="449" edit_top="410">
+            <slot id="1">
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="0" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="1" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="2" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="3" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="4" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="5" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="6" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="7" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="8" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="9" />
+            </slot>
+        </dev>
+        <dev id="0D4D4F73-86CB-486b-89A6-112315ED6A46" name="AC1" poe="0" model="AC6005" settings="" system_mac="00-E0-FC-9B-4D-BF" com_port="2011" bootmode="1" cx="529.000000" cy="114.000000" edit_left="556" edit_top="168">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="8" />
+            </slot>
+        </dev>
+        <dev id="A9A246E3-066E-4cb6-A01C-4931E3A18A28" name="AC2" poe="0" model="AC6605" settings="" system_mac="00-E0-FC-1C-26-53" com_port="2012" bootmode="1" cx="523.000000" cy="196.000000" edit_left="550" edit_top="250">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="BA00D7E0-A000-45b1-9A76-31B9379383B4" name="AP1" poe="0" model="AP2050" settings=" -apMac 00-E0-FC-D8-5F-F0 -apSN 2102354483101957DB48" system_mac="00-E0-FC-D8-5F-F0" com_port="2013" bootmode="1" cx="524.000000" cy="283.000000" edit_left="551" edit_top="337">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="5" />
+            </slot>
+        </dev>
+        <dev id="52179FE1-045D-4c11-976C-7864D08101FD" name="AP2" poe="0" model="AP3030" settings=" -apMac 00-E0-FC-8C-63-40 -apSN 210235448310107D4C68" system_mac="00-E0-FC-8C-63-40" com_port="2014" bootmode="1" cx="532.000000" cy="357.000000" edit_left="559" edit_top="411">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+            </slot>
+        </dev>
+        <dev id="FC7C287E-1B0D-4956-9F11-46339CE86FB5" name="AP3" poe="0" model="AP4030" settings=" -apMac 00-E0-FC-24-62-A0 -apSN 210235448310F64A8B03" system_mac="00-E0-FC-24-62-A0" com_port="2015" bootmode="1" cx="540.000000" cy="438.000000" edit_left="567" edit_top="492">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="5B0AF2D3-23ED-4db0-AF51-C4A3227D52D4" name="AP4" poe="0" model="AP4050" settings=" -apMac 00-E0-FC-10-25-80 -apSN 21023544831083657A53" system_mac="00-E0-FC-10-25-80" com_port="2016" bootmode="1" cx="543.000000" cy="508.000000" edit_left="570" edit_top="562">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="32E18F57-41B5-41c8-B314-66DB611B59C0" name="AP5" poe="0" model="AP5030" settings=" -apMac 00-E0-FC-2D-54-50 -apSN 210235448310A8385303" system_mac="00-E0-FC-2D-54-50" com_port="2017" bootmode="1" cx="543.000000" cy="585.000000" edit_left="570" edit_top="639">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="50DC0BB5-DC89-46a4-9D21-076260A0DE94" name="AP6" poe="0" model="AP6050" settings=" -apMac 00-E0-FC-E0-63-60 -apSN 210235448310FF27391F" system_mac="00-E0-FC-E0-63-60" com_port="2018" bootmode="1" cx="550.000000" cy="661.000000" edit_left="577" edit_top="715">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="A7AFCEB2-9E51-4508-B81E-D1D74CE23512" name="AP7" poe="0" model="AP7030" settings=" -apMac 00-E0-FC-74-51-40 -apSN 21023544831017605C2E" system_mac="00-E0-FC-74-51-40" com_port="2019" bootmode="1" cx="618.000000" cy="116.000000" edit_left="645" edit_top="170">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="AE63D1A4-660D-42ad-90B2-826B04E9AD9F" name="AP8" poe="0" model="AP7050" settings=" -apMac 00-E0-FC-FE-53-60 -apSN 210235448310673EE816" system_mac="00-E0-FC-FE-53-60" com_port="2020" bootmode="1" cx="618.000000" cy="208.000000" edit_left="645" edit_top="262">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="8879C301-C262-4f08-974E-C04419459D3F" name="AP9" poe="0" model="AP8030" settings=" -apMac 00-E0-FC-48-23-70 -apSN 210235448310D46D7B29" system_mac="00-E0-FC-48-23-70" com_port="2021" bootmode="1" cx="618.000000" cy="291.000000" edit_left="645" edit_top="345">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="3" />
+            </slot>
+        </dev>
+        <dev id="A57C68A8-B036-4e2a-9DE2-9B7C158D4DD3" name="AP10" poe="0" model="AP8130" settings=" -apMac 00-E0-FC-D3-65-60 -apSN 210235448310B871C347" system_mac="00-E0-FC-D3-65-60" com_port="2022" bootmode="1" cx="620.000000" cy="376.000000" edit_left="647" edit_top="430">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="3" />
+            </slot>
+        </dev>
+        <dev id="96D37525-1B39-428a-92B2-A2F862A2103F" name="AP11" poe="0" model="AP9131" settings=" -apMac 00-E0-FC-8B-7E-F0 -apSN 210235448310F2629416" system_mac="00-E0-FC-8B-7E-F0" com_port="2023" bootmode="1" cx="621.000000" cy="456.000000" edit_left="648" edit_top="510">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="463BB206-9A12-4919-9176-28F1429DC4C7" name="AD1" poe="0" model="AD9430" settings="" system_mac="00-E0-FC-74-18-00" com_port="2024" bootmode="1" cx="623.000000" cy="524.000000" edit_left="650" edit_top="578">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="28" />
+            </slot>
+        </dev>
+        <dev id="16529C0A-5530-4b78-A3E6-1CD9AE3DB99D" name="SAP1" poe="0" model="R250D" settings=" -apMac 00-E0-FC-C2-07-20 -apSN 2102354483108D63A17C" system_mac="00-E0-FC-C2-07-20" com_port="2025" bootmode="1" cx="622.000000" cy="602.000000" edit_left="649" edit_top="656">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+            </slot>
+        </dev>
+        <dev id="77F921FC-B0D8-452d-BF7D-ED087376BB79" name="FW1" poe="0" model="USG5500" settings="" system_mac="" com_port="2026" bootmode="1" cx="721.000000" cy="115.000000" edit_left="748" edit_top="169">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="9" />
+            </slot>
+        </dev>
+        <dev id="3D883E10-5544-4a7a-9037-096C795067B9" name="FW2" poe="0" model="USG6000V" settings="" system_mac="00-E0-FC-3B-2B-08" com_port="2027" bootmode="1" cx="726.000000" cy="212.000000" edit_left="753" edit_top="266">
+            <slot id="1">
+                <interface category="Ethernet" type="GE" slotIndex="0" cardIndex="0" interfaceIndex="0" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="0" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="1" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="2" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="3" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="4" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="5" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="6" />
+            </slot>
+        </dev>
+        <dev id="D50F5CEE-F691-44fb-8D1B-196A9D16D67C" name="PC1" poe="0" model="PC" settings=" -simpc_ip 0.0.0.0  -simpc_mask 0.0.0.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-C3-0C-4B  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-C3-0C-4B" com_port="0" bootmode="1" cx="824.000000" cy="135.000000" edit_left="851" edit_top="189">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="3821349E-D851-4d09-91E1-9DBCD23C5D4A" name="MCS1" poe="0" model="MCS" settings=" -simpc_ip 0.0.0.0  -simpc_mask 0.0.0.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-A6-51-54  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00 " system_mac="54-89-98-A6-51-54" com_port="0" bootmode="1" cx="827.000000" cy="213.000000" edit_left="854" edit_top="267">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="856C35AB-B41B-4f88-83BF-B0ADBF167521" name="Client1" poe="0" model="Client" settings="-domain 0 -eth 54-89-98-F2-56-64 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-F2-56-64" com_port="0" bootmode="1" cx="834.000000" cy="303.000000" edit_left="861" edit_top="357">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="5702B3C9-8F92-41a6-926F-FCC81B2B41C7" name="Server1" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-A5-65-76 -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-A5-65-76" com_port="0" bootmode="1" cx="842.000000" cy="383.000000" edit_left="869" edit_top="437">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="05ADFBD7-085A-403f-8365-8B3F4E7F8410" name="STA1" poe="0" model="STA" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-1E-80-FB  -simsta_check 0 " system_mac="54-89-98-1E-80-FB" com_port="0" bootmode="1" cx="837.000000" cy="463.000000" edit_left="864" edit_top="517">
+            <slot number="slot17" isMainBoard="1" />
+        </dev>
+        <dev id="CD65BA48-792E-43e1-996A-490474F70D88" name="Cellphone1" poe="0" model="Cellphone" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-6B-3A-0C  -simsta_check 0 " system_mac="54-89-98-6B-3A-0C" com_port="0" bootmode="1" cx="840.000000" cy="541.000000" edit_left="867" edit_top="595">
+            <slot number="slot17" isMainBoard="1" />
+        </dev>
+        <dev id="CB817926-A109-4930-BE36-4D900F1264F8" name="Cloud1" poe="0" model="Cloud" settings="" system_mac="" com_port="0" bootmode="0" cx="950.500000" cy="110.500000" edit_left="993" edit_top="195">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="0" />
+                <interface sztype="Ethernet" interfacename="GE" count="0" />
+                <interface sztype="Serial" interfacename="Serial" count="0" />
+            </slot>
+        </dev>
+        <dev id="397E5F88-78C8-479b-B5AF-58A9B8FD3E9C" name="FRSW1" poe="0" model="FRSW" settings="" system_mac="" com_port="0" bootmode="1" cx="975.000000" cy="242.000000" edit_left="1002" edit_top="296">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Serial" interfacename="Serial" count="16" />
+            </slot>
+        </dev>
+        <dev id="659BB7E5-4697-4627-B243-718EFC33C62F" name="HUB1" poe="0" model="HUB" settings="" system_mac="" com_port="0" bootmode="1" cx="976.000000" cy="323.000000" edit_left="1003" edit_top="377">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="16" />
+            </slot>
+        </dev>
+        <dev id="FEA75061-BAC0-4121-A914-B3252BFF0CED" name="PC2" poe="0" model="PC" settings=" -simpc_ip 0.0.0.0  -simpc_mask 0.0.0.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-8D-11-DC  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-8D-11-DC" com_port="0" bootmode="1" cx="1245.000000" cy="147.000000" edit_left="1272" edit_top="201">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="305258D0-7C03-4cb4-9DDB-CCD89E1FCE8A" name="PC3" poe="0" model="PC" settings=" -simpc_ip 0.0.0.0  -simpc_mask 0.0.0.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-77-5F-F3  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-77-5F-F3" com_port="0" bootmode="1" cx="1247.000000" cy="255.000000" edit_left="1274" edit_top="309">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="FEA75061-BAC0-4121-A914-B3252BFF0CED" destDeviceID="305258D0-7C03-4cb4-9DDB-CCD89E1FCE8A">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="1272.799561" srcBoundRect_Y="217.176361" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="1273.200439" tarBoundRect_Y="238.823639" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips />
+</topo>

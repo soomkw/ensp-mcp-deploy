@@ -1,0 +1,81 @@
+{
+  "verdict": "FAIL",
+  "suite": "custom",
+  "topo": "C:\\Users\\Administrator\\Desktop\\大牛逼文件夹3.0\\示例\\fw-ha-demo.topo",
+  "batch": "verify-1793782389991",
+  "total": 7,
+  "passed": 6,
+  "failed": 1,
+  "skipped": 0,
+  "elapsedSeconds": 0.1,
+  "checks": [
+    {
+      "name": "HRP 主备角色已建立",
+      "device": "FW1",
+      "consolePort": 53736,
+      "command": "display hrp state",
+      "status": "PASS",
+      "durationMs": 15,
+      "output": "--------------------------------------------------------------------------------\n  Role: active                        Current State: up\n  Peer Role: standby              Peer State:  up\n  HRP_MainBoard: GigabitEthernet0/0/1"
+    },
+    {
+      "name": "HRP 主备角色已建立",
+      "device": "FW2",
+      "consolePort": 53737,
+      "command": "display hrp state",
+      "status": "PASS",
+      "durationMs": 32,
+      "output": "--------------------------------------------------------------------------------\n  Role: standby                       Current State: up\n  Peer Role: active                   Peer State:  up\n  HRP_MainBoard: GigabitEthernet0/0/1"
+    },
+    {
+      "name": "HRP 心跳口已绑定",
+      "device": "FW1",
+      "consolePort": 53736,
+      "command": "display hrp interface",
+      "status": "PASS",
+      "durationMs": 32,
+      "output": "Interface GigabitEthernet0/0/1"
+    },
+    {
+      "name": "HRP 心跳口已绑定",
+      "device": "FW2",
+      "consolePort": 53737,
+      "command": "display hrp interface",
+      "status": "PASS",
+      "durationMs": 16,
+      "output": "Interface GigabitEthernet0/0/1"
+    },
+    {
+      "name": "VRRP 组为主备状态",
+      "device": "FW1",
+      "consolePort": 53736,
+      "command": "display vrrp",
+      "status": "PASS",
+      "durationMs": 14,
+      "output": "VRID 1\n  State : Master\n  Virtual IP : 10.1.1.254"
+    },
+    {
+      "name": "VRRP 组为主备状态",
+      "device": "FW2",
+      "consolePort": 53737,
+      "command": "display vrrp",
+      "status": "PASS",
+      "durationMs": 14,
+      "output": "VRID 1\n  State : Backup\n  Virtual IP : 10.1.1.254"
+    },
+    {
+      "name": "内网到外网可达",
+      "device": "Core1",
+      "consolePort": 53738,
+      "command": "ping -c 5 10.1.1.1",
+      "status": "FAIL",
+      "durationMs": 16,
+      "problems": [
+        "ping 实际不通，期望通",
+        "丢包率 100.0% 超过上限 0.0%"
+      ],
+      "output": "5 packet(s) transmitted\n0 packet(s) received\n100.00% packet loss"
+    }
+  ],
+  "skippedChecks": []
+}
